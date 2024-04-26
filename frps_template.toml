@@ -1,0 +1,8 @@
+bindPort = {{BIND_PORT}}
+auth.method = "token"
+auth.token = "{{TOKEN}}"
+webServer.addr = "0.0.0.0"
+webServer.port = 7500
+webServer.user = "admin"
+webServer.password = "{{DASHBOARD_PWD}}"
+transport.tls.force = true

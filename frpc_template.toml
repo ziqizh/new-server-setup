@@ -1,0 +1,11 @@
+transport.tls.enable = true
+serverAddr = "{{ADDR}}"
+serverPort = {{BIND_PORT}}
+auth.token = "{{TOKEN}}"
+
+[[proxies]]
+name = "http-jellyfin"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8096
+remotePort = 6065
